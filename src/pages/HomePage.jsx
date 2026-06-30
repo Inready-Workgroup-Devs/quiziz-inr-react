@@ -1,10 +1,6 @@
 import { Link } from "react-router";
-import { DIFFICULTIES } from "../lib/utils";
-import { useState } from "react";
 
 function HomePage() {
-  const [difficultySelected, setDifficultySelected] = useState();
-
   return (
     <div className="min-h-screen bg-background flex items-center justify-center p-6">
       <div className="max-w-4xl w-full flex flex-col items-center gap-10 shadow-xl py-10 rounded-xl">
